@@ -1,3 +1,8 @@
+---
+layout: default
+title: Prydwen
+---
+
 # Soon
 
 Ce site est en cours de préparation.
