@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prydwen - Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0e1013;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .links {
+            position: absolute;
+            bottom: 30px;
+            font-size: 1.2rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .links a {
+            color: #00aaff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            background-color: #00aaff;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #0099cc;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Prydwen</h1>
+    <p>Le site arrive bientôt...</p>
+    <a href="https://discord.com/oauth2/authorize?client_id=TON_ID_BOT&scope=bot&permissions=BOT_PERMISSIONS" class="button">Invite</a>
+    
+    <div class="links">
+        <a href="terms.html">Conditions d'utilisation</a>
+        <a href="privacy.html">Politique de confidentialité</a>
+    </div>
+</body>
+</html>
