@@ -1,78 +1,109 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prydwen - Coming Soon</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #0e1013;
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prydwen - Discord Bot</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
 
-        h1 {
-            font-size: 4rem;
-            margin-bottom: 2rem;
-            animation: fadeIn 2s ease-in-out;
-        }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
 
-        .links {
-            position: absolute;
-            bottom: 30px;
-            font-size: 1.2rem;
-            animation: fadeIn 2s ease-in-out;
-        }
+    h1 span {
+      color: #009dff;
+    }
 
-        .links a {
-            color: #00aaff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+    p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 1.5rem;
+    }
 
-        .links a:hover {
-            text-decoration: underline;
-        }
+    .status {
+      background-color: #1f1f1f;
+      border-radius: 20px;
+      padding: 0.3rem 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
 
-        .button {
-            background-color: #00aaff;
-            color: white;
-            padding: 12px 24px;
-            font-size: 1.2rem;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+    .status .dot {
+      width: 10px;
+      height: 10px;
+      background-color: #00c853;
+      border-radius: 50%;
+    }
 
-        .button:hover {
-            background-color: #0099cc;
-        }
+    .socials {
+      display: flex;
+      gap: 1.2rem;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
 
-        @keyframes fadeIn {
-            0% { opacity: 0; }
-            100% { opacity: 1; }
-        }
-    </style>
+    .socials a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: #009dff;
+    }
+
+    footer {
+      margin-top: auto;
+      font-size: 0.9rem;
+      padding: 2rem;
+    }
+
+    footer a {
+      color: #999;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Prydwen</h1>
-    <p>Le site arrive bientôt...</p>
-    <a href="https://discord.com/oauth2/authorize?client_id=TON_ID_BOT&scope=bot&permissions=BOT_PERMISSIONS" class="button">Invite</a>
-    
-    <div class="links">
-        <a href="terms.html">Conditions d'utilisation</a>
-        <a href="privacy.html">Politique de confidentialité</a>
-    </div>
+  <h1>Hey, I'm <span>Prydwen</span><span style="color: #fff;">!</span></h1>
+  <p>Security-focused Discord Bot</p>
+
+  <div class="status">
+    <div class="dot"></div>
+    <span>online</span>
+  </div>
+
+  <div class="socials">
+    <a href="https://t.me/prydwenbot" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+    <a href="https://github.com/prydwen" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://discord.gg/votre-lien" target="_blank"><i class="fab fa-discord"></i></a>
+    <a href="https://twitter.com/prydwenbot" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://instagram.com/prydwenbot" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <footer>
+    <a href="/terms.html">Terms of Service</a> |
+    <a href="/privacy.html">Privacy Policy</a>
+  </footer>
 </body>
 </html>
